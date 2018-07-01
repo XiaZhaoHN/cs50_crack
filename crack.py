@@ -14,7 +14,7 @@ if not len(sys.argv) == 2:
 k = sys.argv[1]
 
 
-#Initialize "salt", which is from first two characters of k
+# Initialize "salt", which is from first two characters of k
 salt = k[0] + k[1]
 
 # Loop through potential passwords by lenth, which can be made of 1 to 5 characters
